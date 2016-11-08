@@ -35,6 +35,7 @@ var PAGE_NUMBER_LOADING_INDICATOR = 'visiblePageIsLoading';
 var DISABLE_AUTO_FETCH_LOADING_BAR_TIMEOUT = 5000;
 
 PDFJS.imageResourcesPath = '/pdfjs/web/images/';
+PDFJS.disableRange = true;
   // PDFJS.workerSrc = '../build/pdf.worker.js';
   PDFJS.cMapUrl = '/pdfjs/web/cmaps/';
   PDFJS.cMapPacked = true;
